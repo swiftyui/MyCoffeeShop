@@ -3,23 +3,123 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66037A7528EADC6A008BAC19 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A7428EADC6A008BAC19 /* loading.json */; };
+		66037A7928EAE30F008BAC19 /* personalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A7828EAE30F008BAC19 /* personalInfo.json */; };
+		66037A7B28EAE412008BAC19 /* email.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A7A28EAE412008BAC19 /* email.json */; };
+		66037A7D28EAE499008BAC19 /* password.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A7C28EAE499008BAC19 /* password.json */; };
+		66037A7F28EAE653008BAC19 /* celebrate.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A7E28EAE653008BAC19 /* celebrate.json */; };
+		66037A8128EAE687008BAC19 /* celebrate2.json in Resources */ = {isa = PBXBuildFile; fileRef = 66037A8028EAE687008BAC19 /* celebrate2.json */; };
+		66037A8328EAEA04008BAC19 /* DotIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66037A8228EAEA04008BAC19 /* DotIndicator.swift */; };
+		66037A8728EAF506008BAC19 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66037A8628EAF506008BAC19 /* PaymentView.swift */; };
+		66037A8B28EAF9FE008BAC19 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66037A8A28EAF9FE008BAC19 /* ApplePayButton.swift */; };
+		66154C7128EBFCFE001E8CB0 /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 66154C7028EBFCFE001E8CB0 /* StreamChatSwiftUI */; };
+		66154C7928EC00BC001E8CB0 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66154C7828EC00BC001E8CB0 /* CheckOutView.swift */; };
+		66154C7B28EC00FA001E8CB0 /* payment.json in Resources */ = {isa = PBXBuildFile; fileRef = 66154C7A28EC00FA001E8CB0 /* payment.json */; };
+		6629356C28E5EA7B00355598 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629356B28E5EA7B00355598 /* ExploreView.swift */; };
+		6629356E28E5F3E000355598 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629356D28E5F3E000355598 /* MapView.swift */; };
+		666EBC6928E4D1B20021529B /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC6828E4D1B20021529B /* welcome.json */; };
+		666EBC6B28E4D2AC0021529B /* EmptyProfile.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC6A28E4D2AC0021529B /* EmptyProfile.json */; };
+		666EBC6D28E4D3A90021529B /* Store.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC6C28E4D3A80021529B /* Store.json */; };
+		666EBC6F28E4D44D0021529B /* CoffeeSwirl.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC6E28E4D44D0021529B /* CoffeeSwirl.json */; };
+		666EBC7128E4D46B0021529B /* CoffeeLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC7028E4D46B0021529B /* CoffeeLoading.json */; };
+		666EBC7328E4D4A50021529B /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666EBC7228E4D4A50021529B /* MenuDetailView.swift */; };
+		666EBC7528E4D4F10021529B /* CoffeeCup2.json in Resources */ = {isa = PBXBuildFile; fileRef = 666EBC7428E4D4F10021529B /* CoffeeCup2.json */; };
 		667C3E1428E4845D00A94371 /* MyCoffeeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E1328E4845D00A94371 /* MyCoffeeShopApp.swift */; };
-		667C3E1628E4845D00A94371 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E1528E4845D00A94371 /* ContentView.swift */; };
 		667C3E1828E4845D00A94371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C3E1728E4845D00A94371 /* Assets.xcassets */; };
 		667C3E1C28E4845D00A94371 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C3E1B28E4845D00A94371 /* Preview Assets.xcassets */; };
+		667C3E2428E484A300A94371 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E2328E484A300A94371 /* SplashScreen.swift */; };
+		667C3E2B28E4855200A94371 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E2A28E4855200A94371 /* MenuView.swift */; };
+		667C3E2F28E4872300A94371 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E2E28E4872300A94371 /* OrdersView.swift */; };
+		667C3E3628E4887C00A94371 /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E3528E4887C00A94371 /* RefreshableScrollView.swift */; };
+		667C3E3928E489E900A94371 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E3828E489E900A94371 /* ProfileView.swift */; };
+		667C3E3B28E48C3E00A94371 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E3A28E48C3E00A94371 /* SearchBar.swift */; };
+		667C3E3E28E48CD900A94371 /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E3D28E48CD900A94371 /* FakeData.swift */; };
+		667C3E4028E48D0500A94371 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E3F28E48D0500A94371 /* MenuItemView.swift */; };
+		667C3E4228E48DA200A94371 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E4128E48DA200A94371 /* CircleImage.swift */; };
+		667C3E4428E48DBA00A94371 /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E4328E48DBA00A94371 /* PersonalInfoView.swift */; };
+		667C3E4628E48DC700A94371 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C3E4528E48DC700A94371 /* AchievementsView.swift */; };
+		667F8B9A28E5B99F0099E787 /* Contact.json in Resources */ = {isa = PBXBuildFile; fileRef = 667F8B9928E5B99F0099E787 /* Contact.json */; };
+		667F8B9C28E5C33F0099E787 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F8B9B28E5C33F0099E787 /* MenuRowView.swift */; };
+		667F8B9E28E5C8200099E787 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F8B9D28E5C8200099E787 /* ButtonStyles.swift */; };
+		667F8BA028E5C9CC0099E787 /* Order.json in Resources */ = {isa = PBXBuildFile; fileRef = 667F8B9F28E5C9CC0099E787 /* Order.json */; };
+		66C4F04328E61BD8004653A9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4F04228E61BD8004653A9 /* UserModel.swift */; };
+		66C4F04528E61D0F004653A9 /* iCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4F04428E61D0F004653A9 /* iCloudConfig.swift */; };
+		66C4F04728E61D73004653A9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4F04628E61D73004653A9 /* UserData.swift */; };
+		66E260B028E81FF400403538 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E260AF28E81FF400403538 /* ErrorAlert.swift */; };
+		66E55E5628E6BB8A003D7123 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E55E5528E6BB8A003D7123 /* Login.json */; };
+		66E55E5928E6BBA5003D7123 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E55E5828E6BBA5003D7123 /* LoginView.swift */; };
+		66E55E5B28E6C30F003D7123 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E55E5A28E6C30F003D7123 /* CheckBoxView.swift */; };
+		66EB21EF28E4AB0F00C69598 /* CoffeeCup.json in Resources */ = {isa = PBXBuildFile; fileRef = 66EB21EE28E4AB0F00C69598 /* CoffeeCup.json */; };
+		66EB21F128E4AC6500C69598 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB21F028E4AC6500C69598 /* LottieView.swift */; };
+		66EB21F428E4B03E00C69598 /* ColoredGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB21F328E4B03E00C69598 /* ColoredGroupBox.swift */; };
+		66EB21F728E4B0E700C69598 /* MyShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB21F628E4B0E700C69598 /* MyShopView.swift */; };
+		66EB21FB28E4B32100C69598 /* Preparing.json in Resources */ = {isa = PBXBuildFile; fileRef = 66EB21FA28E4B32100C69598 /* Preparing.json */; };
+		66FDACFF28E73A3A00C0CC01 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FDACFE28E73A3A00C0CC01 /* SignUpView.swift */; };
+		70F7DDD9E7F1FD5D9D02B961 /* Pods_MyCoffeeShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB861C22615E0BB063E216 /* Pods_MyCoffeeShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF4D60114A766F233F254CC /* Pods-MyCoffeeShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoffeeShop.debug.xcconfig"; path = "Target Support Files/Pods-MyCoffeeShop/Pods-MyCoffeeShop.debug.xcconfig"; sourceTree = "<group>"; };
+		66037A7428EADC6A008BAC19 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		66037A7828EAE30F008BAC19 /* personalInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = personalInfo.json; sourceTree = "<group>"; };
+		66037A7A28EAE412008BAC19 /* email.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = email.json; sourceTree = "<group>"; };
+		66037A7C28EAE499008BAC19 /* password.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = password.json; sourceTree = "<group>"; };
+		66037A7E28EAE653008BAC19 /* celebrate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = celebrate.json; sourceTree = "<group>"; };
+		66037A8028EAE687008BAC19 /* celebrate2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = celebrate2.json; sourceTree = "<group>"; };
+		66037A8228EAEA04008BAC19 /* DotIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotIndicator.swift; sourceTree = "<group>"; };
+		66037A8628EAF506008BAC19 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		66037A8A28EAF9FE008BAC19 /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		66154C7828EC00BC001E8CB0 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		66154C7A28EC00FA001E8CB0 /* payment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payment.json; sourceTree = "<group>"; };
+		6629356B28E5EA7B00355598 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		6629356D28E5F3E000355598 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		666EBC6828E4D1B20021529B /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
+		666EBC6A28E4D2AC0021529B /* EmptyProfile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmptyProfile.json; sourceTree = "<group>"; };
+		666EBC6C28E4D3A80021529B /* Store.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Store.json; sourceTree = "<group>"; };
+		666EBC6E28E4D44D0021529B /* CoffeeSwirl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeSwirl.json; sourceTree = "<group>"; };
+		666EBC7028E4D46B0021529B /* CoffeeLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeLoading.json; sourceTree = "<group>"; };
+		666EBC7228E4D4A50021529B /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		666EBC7428E4D4F10021529B /* CoffeeCup2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeCup2.json; sourceTree = "<group>"; };
 		667C3E1028E4845D00A94371 /* MyCoffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667C3E1328E4845D00A94371 /* MyCoffeeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoffeeShopApp.swift; sourceTree = "<group>"; };
-		667C3E1528E4845D00A94371 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		667C3E1728E4845D00A94371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667C3E1928E4845D00A94371 /* MyCoffeeShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCoffeeShop.entitlements; sourceTree = "<group>"; };
 		667C3E1B28E4845D00A94371 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		667C3E2328E484A300A94371 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		667C3E2A28E4855200A94371 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		667C3E2E28E4872300A94371 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		667C3E3528E4887C00A94371 /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
+		667C3E3828E489E900A94371 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		667C3E3A28E48C3E00A94371 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		667C3E3D28E48CD900A94371 /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		667C3E3F28E48D0500A94371 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		667C3E4128E48DA200A94371 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		667C3E4328E48DBA00A94371 /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		667C3E4528E48DC700A94371 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		667F8B9928E5B99F0099E787 /* Contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contact.json; sourceTree = "<group>"; };
+		667F8B9B28E5C33F0099E787 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		667F8B9D28E5C8200099E787 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		667F8B9F28E5C9CC0099E787 /* Order.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Order.json; sourceTree = "<group>"; };
+		66C4F04228E61BD8004653A9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		66C4F04428E61D0F004653A9 /* iCloudConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudConfig.swift; sourceTree = "<group>"; };
+		66C4F04628E61D73004653A9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		66E260AF28E81FF400403538 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		66E55E5528E6BB8A003D7123 /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
+		66E55E5828E6BBA5003D7123 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		66E55E5A28E6C30F003D7123 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		66EB21EE28E4AB0F00C69598 /* CoffeeCup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeCup.json; sourceTree = "<group>"; };
+		66EB21F028E4AC6500C69598 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		66EB21F328E4B03E00C69598 /* ColoredGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredGroupBox.swift; sourceTree = "<group>"; };
+		66EB21F628E4B0E700C69598 /* MyShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopView.swift; sourceTree = "<group>"; };
+		66EB21FA28E4B32100C69598 /* Preparing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Preparing.json; sourceTree = "<group>"; };
+		66FDACFE28E73A3A00C0CC01 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		66FDAD0028E7432B00C0CC01 /* MyCoffeeShopRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCoffeeShopRelease.entitlements; sourceTree = "<group>"; };
+		ABE5E0F279CF6B75A5EBA5FB /* Pods-MyCoffeeShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoffeeShop.release.xcconfig"; path = "Target Support Files/Pods-MyCoffeeShop/Pods-MyCoffeeShop.release.xcconfig"; sourceTree = "<group>"; };
+		BFBB861C22615E0BB063E216 /* Pods_MyCoffeeShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCoffeeShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +127,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66154C7128EBFCFE001E8CB0 /* StreamChatSwiftUI in Frameworks */,
+				70F7DDD9E7F1FD5D9D02B961 /* Pods_MyCoffeeShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A94F0CC14DEB7D1D9C0A48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB861C22615E0BB063E216 /* Pods_MyCoffeeShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF7C46DCC51B4A420C49DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DF4D60114A766F233F254CC /* Pods-MyCoffeeShop.debug.xcconfig */,
+				ABE5E0F279CF6B75A5EBA5FB /* Pods-MyCoffeeShop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6629356A28E5EA6900355598 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				6629356B28E5EA7B00355598 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
 		667C3E0728E4845D00A94371 = {
 			isa = PBXGroup;
 			children = (
 				667C3E1228E4845D00A94371 /* MyCoffeeShop */,
 				667C3E1128E4845D00A94371 /* Products */,
+				5FF7C46DCC51B4A420C49DBA /* Pods */,
+				48A94F0CC14DEB7D1D9C0A48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +181,11 @@
 		667C3E1228E4845D00A94371 /* MyCoffeeShop */ = {
 			isa = PBXGroup;
 			children = (
-				667C3E1328E4845D00A94371 /* MyCoffeeShopApp.swift */,
-				667C3E1528E4845D00A94371 /* ContentView.swift */,
+				66FDAD0028E7432B00C0CC01 /* MyCoffeeShopRelease.entitlements */,
+				66EB21F228E4AD5500C69598 /* Models */,
+				66EB21ED28E4AAF200C69598 /* Animations */,
+				667C3E3C28E48CCE00A94371 /* Data */,
+				667C3E2928E4851D00A94371 /* Views */,
 				667C3E1728E4845D00A94371 /* Assets.xcassets */,
 				667C3E1928E4845D00A94371 /* MyCoffeeShop.entitlements */,
 				667C3E1A28E4845D00A94371 /* Preview Content */,
@@ -69,6 +201,139 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		667C3E2228E4849500A94371 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E2328E484A300A94371 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		667C3E2528E484BF00A94371 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E2A28E4855200A94371 /* MenuView.swift */,
+				667C3E3F28E48D0500A94371 /* MenuItemView.swift */,
+				666EBC7228E4D4A50021529B /* MenuDetailView.swift */,
+				667F8B9B28E5C33F0099E787 /* MenuRowView.swift */,
+				6629356D28E5F3E000355598 /* MapView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		667C3E2928E4851D00A94371 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E1328E4845D00A94371 /* MyCoffeeShopApp.swift */,
+				66E55E5728E6BB94003D7123 /* Login */,
+				6629356A28E5EA6900355598 /* Explore */,
+				66EB21F528E4B0D600C69598 /* MyShop */,
+				667C3E3728E489DD00A94371 /* Profile */,
+				667C3E3428E4886B00A94371 /* Library */,
+				667C3E2D28E4871000A94371 /* Orders */,
+				667C3E2228E4849500A94371 /* SplashScreen */,
+				667C3E2528E484BF00A94371 /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		667C3E2D28E4871000A94371 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E2E28E4872300A94371 /* OrdersView.swift */,
+				66154C7828EC00BC001E8CB0 /* CheckOutView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		667C3E3428E4886B00A94371 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E3528E4887C00A94371 /* RefreshableScrollView.swift */,
+				667C3E3A28E48C3E00A94371 /* SearchBar.swift */,
+				667C3E4128E48DA200A94371 /* CircleImage.swift */,
+				66EB21F028E4AC6500C69598 /* LottieView.swift */,
+				66EB21F328E4B03E00C69598 /* ColoredGroupBox.swift */,
+				667F8B9D28E5C8200099E787 /* ButtonStyles.swift */,
+				66E55E5A28E6C30F003D7123 /* CheckBoxView.swift */,
+				66E260AF28E81FF400403538 /* ErrorAlert.swift */,
+				66037A8228EAEA04008BAC19 /* DotIndicator.swift */,
+				66037A8A28EAF9FE008BAC19 /* ApplePayButton.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		667C3E3728E489DD00A94371 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				667C3E3828E489E900A94371 /* ProfileView.swift */,
+				667C3E4328E48DBA00A94371 /* PersonalInfoView.swift */,
+				667C3E4528E48DC700A94371 /* AchievementsView.swift */,
+				66037A8628EAF506008BAC19 /* PaymentView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		667C3E3C28E48CCE00A94371 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66C4F04428E61D0F004653A9 /* iCloudConfig.swift */,
+				667C3E3D28E48CD900A94371 /* FakeData.swift */,
+				66C4F04628E61D73004653A9 /* UserData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		66E55E5728E6BB94003D7123 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				66E55E5828E6BBA5003D7123 /* LoginView.swift */,
+				66FDACFE28E73A3A00C0CC01 /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		66EB21ED28E4AAF200C69598 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				666EBC6A28E4D2AC0021529B /* EmptyProfile.json */,
+				666EBC6828E4D1B20021529B /* welcome.json */,
+				666EBC7028E4D46B0021529B /* CoffeeLoading.json */,
+				66EB21EE28E4AB0F00C69598 /* CoffeeCup.json */,
+				666EBC7428E4D4F10021529B /* CoffeeCup2.json */,
+				666EBC6E28E4D44D0021529B /* CoffeeSwirl.json */,
+				66E55E5528E6BB8A003D7123 /* Login.json */,
+				666EBC6C28E4D3A80021529B /* Store.json */,
+				667F8B9F28E5C9CC0099E787 /* Order.json */,
+				66037A7A28EAE412008BAC19 /* email.json */,
+				66037A7428EADC6A008BAC19 /* loading.json */,
+				66037A8028EAE687008BAC19 /* celebrate2.json */,
+				667F8B9928E5B99F0099E787 /* Contact.json */,
+				66037A7828EAE30F008BAC19 /* personalInfo.json */,
+				66037A7E28EAE653008BAC19 /* celebrate.json */,
+				66154C7A28EC00FA001E8CB0 /* payment.json */,
+				66037A7C28EAE499008BAC19 /* password.json */,
+				66EB21FA28E4B32100C69598 /* Preparing.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		66EB21F228E4AD5500C69598 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66C4F04228E61BD8004653A9 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66EB21F528E4B0D600C69598 /* MyShop */ = {
+			isa = PBXGroup;
+			children = (
+				66EB21F628E4B0E700C69598 /* MyShopView.swift */,
+			);
+			path = MyShop;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +341,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667C3E1F28E4845D00A94371 /* Build configuration list for PBXNativeTarget "MyCoffeeShop" */;
 			buildPhases = (
+				3DC421E3676B50F39C0AD1D5 /* [CP] Check Pods Manifest.lock */,
 				667C3E0C28E4845D00A94371 /* Sources */,
 				667C3E0D28E4845D00A94371 /* Frameworks */,
 				667C3E0E28E4845D00A94371 /* Resources */,
+				0CDE2F178AE15C8CD103B8A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyCoffeeShop;
+			packageProductDependencies = (
+				66154C7028EBFCFE001E8CB0 /* StreamChatSwiftUI */,
+			);
 			productName = MyCoffeeShop;
 			productReference = 667C3E1028E4845D00A94371 /* MyCoffeeShop.app */;
 			productType = "com.apple.product-type.application";
@@ -105,7 +375,7 @@
 				};
 			};
 			buildConfigurationList = 667C3E0B28E4845D00A94371 /* Build configuration list for PBXProject "MyCoffeeShop" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -113,6 +383,9 @@
 				Base,
 			);
 			mainGroup = 667C3E0728E4845D00A94371;
+			packageReferences = (
+				66154C6F28EBFCFE001E8CB0 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
+			);
 			productRefGroup = 667C3E1128E4845D00A94371 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,19 +401,108 @@
 			buildActionMask = 2147483647;
 			files = (
 				667C3E1C28E4845D00A94371 /* Preview Assets.xcassets in Resources */,
+				666EBC7528E4D4F10021529B /* CoffeeCup2.json in Resources */,
+				667F8BA028E5C9CC0099E787 /* Order.json in Resources */,
+				666EBC6F28E4D44D0021529B /* CoffeeSwirl.json in Resources */,
+				66037A7528EADC6A008BAC19 /* loading.json in Resources */,
+				666EBC6D28E4D3A90021529B /* Store.json in Resources */,
+				66037A8128EAE687008BAC19 /* celebrate2.json in Resources */,
+				667F8B9A28E5B99F0099E787 /* Contact.json in Resources */,
+				666EBC6B28E4D2AC0021529B /* EmptyProfile.json in Resources */,
 				667C3E1828E4845D00A94371 /* Assets.xcassets in Resources */,
+				666EBC7128E4D46B0021529B /* CoffeeLoading.json in Resources */,
+				66037A7B28EAE412008BAC19 /* email.json in Resources */,
+				66037A7928EAE30F008BAC19 /* personalInfo.json in Resources */,
+				66EB21FB28E4B32100C69598 /* Preparing.json in Resources */,
+				66154C7B28EC00FA001E8CB0 /* payment.json in Resources */,
+				66037A7F28EAE653008BAC19 /* celebrate.json in Resources */,
+				66EB21EF28E4AB0F00C69598 /* CoffeeCup.json in Resources */,
+				666EBC6928E4D1B20021529B /* welcome.json in Resources */,
+				66E55E5628E6BB8A003D7123 /* Login.json in Resources */,
+				66037A7D28EAE499008BAC19 /* password.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CDE2F178AE15C8CD103B8A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCoffeeShop/Pods-MyCoffeeShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCoffeeShop/Pods-MyCoffeeShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCoffeeShop/Pods-MyCoffeeShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC421E3676B50F39C0AD1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCoffeeShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		667C3E0C28E4845D00A94371 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667C3E1628E4845D00A94371 /* ContentView.swift in Sources */,
+				667C3E3E28E48CD900A94371 /* FakeData.swift in Sources */,
+				66C4F04328E61BD8004653A9 /* UserModel.swift in Sources */,
+				667C3E2428E484A300A94371 /* SplashScreen.swift in Sources */,
+				66154C7928EC00BC001E8CB0 /* CheckOutView.swift in Sources */,
+				66037A8B28EAF9FE008BAC19 /* ApplePayButton.swift in Sources */,
+				666EBC7328E4D4A50021529B /* MenuDetailView.swift in Sources */,
+				667C3E4428E48DBA00A94371 /* PersonalInfoView.swift in Sources */,
+				667C3E2F28E4872300A94371 /* OrdersView.swift in Sources */,
+				66E55E5928E6BBA5003D7123 /* LoginView.swift in Sources */,
+				667F8B9C28E5C33F0099E787 /* MenuRowView.swift in Sources */,
+				66FDACFF28E73A3A00C0CC01 /* SignUpView.swift in Sources */,
+				667C3E4628E48DC700A94371 /* AchievementsView.swift in Sources */,
+				667C3E4028E48D0500A94371 /* MenuItemView.swift in Sources */,
+				667C3E2B28E4855200A94371 /* MenuView.swift in Sources */,
+				66EB21F728E4B0E700C69598 /* MyShopView.swift in Sources */,
+				66037A8728EAF506008BAC19 /* PaymentView.swift in Sources */,
+				66037A8328EAEA04008BAC19 /* DotIndicator.swift in Sources */,
+				66E260B028E81FF400403538 /* ErrorAlert.swift in Sources */,
 				667C3E1428E4845D00A94371 /* MyCoffeeShopApp.swift in Sources */,
+				66C4F04728E61D73004653A9 /* UserData.swift in Sources */,
+				66EB21F428E4B03E00C69598 /* ColoredGroupBox.swift in Sources */,
+				66EB21F128E4AC6500C69598 /* LottieView.swift in Sources */,
+				667F8B9E28E5C8200099E787 /* ButtonStyles.swift in Sources */,
+				667C3E3B28E48C3E00A94371 /* SearchBar.swift in Sources */,
+				667C3E3928E489E900A94371 /* ProfileView.swift in Sources */,
+				667C3E3628E4887C00A94371 /* RefreshableScrollView.swift in Sources */,
+				6629356E28E5F3E000355598 /* MapView.swift in Sources */,
+				66E55E5B28E6C30F003D7123 /* CheckBoxView.swift in Sources */,
+				6629356C28E5EA7B00355598 /* ExploreView.swift in Sources */,
+				667C3E4228E48DA200A94371 /* CircleImage.swift in Sources */,
+				66C4F04528E61D0F004653A9 /* iCloudConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +620,7 @@
 		};
 		667C3E2028E4845D00A94371 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF4D60114A766F233F254CC /* Pods-MyCoffeeShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,10 +659,11 @@
 		};
 		667C3E2128E4845D00A94371 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE5E0F279CF6B75A5EBA5FB /* Pods-MyCoffeeShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MyCoffeeShop/MyCoffeeShop.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyCoffeeShop/MyCoffeeShopRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCoffeeShop/Preview Content\"";
@@ -354,6 +718,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66154C6F28EBFCFE001E8CB0 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66154C7028EBFCFE001E8CB0 /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66154C6F28EBFCFE001E8CB0 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 667C3E0828E4845D00A94371 /* Project object */;
 }
